@@ -15,16 +15,11 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 ```
 This simulation is creating a population of 1000 people who attend two types of events (200 people at weddings and 800 people at brunches). This is done at event sampling with initial setup of the ppl Dataframe, created with 1000 rows, each reperesenting a person attending one of the two events. The sampling frame is the entire ppl Dataframe, representing all 1000 people. For the infection sampling stage, the sampling frame is the same but the sample size is determined randomly with the np.random.choice() function to select 10% of the 1000 people population to be infected. This uses a binomial distribution, where each person has 10% probability of being selected. Then in primary trace and secondary trace, the code uses ppl.loc[ppl['infected'], 'traced'] and events_traced to determine the people who are primary traced and secondary traced.
 
-The code running with the original whitby_cvodi_tracing.py results in a overlaid distribution graph of infections from weddings (in blue) and traced to weddings (in red). It is similar to the article in the sense that the traced/observed distribution strays to the right of the true distribution of infections. The graph outputted has the observed/traced distribution mean approximately at 0.25 whereas the true is around 0.2. The original article has the observed distribution mean approximately at 0.5, more than double of the true distribution, signifying significant bias and overestimation with the observed method of sampling or collecting information about tracing. 
+The code running with the original whitby_covid_tracing.py results in a overlaid distribution graph of infections from weddings (in blue) and traced to weddings (in red). It is similar to the article in the sense that the traced/observed distribution strays to the right of the true distribution of infections. The graph outputted has the observed/traced distribution mean approximately at 0.25 whereas the true is around 0.2. The original article has the observed distribution mean approximately at 0.5, more than double of the true distribution, signifying significant bias and overestimation with the observed method of sampling or collecting information about tracing. 
 
 After modifying the python script to run 1000 times there is quite a lot more variability in the observed/traced distribution and the mean starts to vary up and down from 0.2. But like before, the variability or range of data seen is greater with the observed/traced sampling as opposed to the true distribution.
 
 To lock down the reproducibility, we use a random seed (np.random.seed(42)) around the beginning of the code block in order to achieve reproducbility with the distribution graph, especially with a lower repetition of 1000 times instead of 50000. 
-
-
-
-
- Identify all stages at which sampling is occurring in the model. Describe in words the sampling procedure, referencing the functions used, sample size, sampling frame, any underlying distributions involved, and how these relate to the procedure outlined in the blog post.
 
 ```
 
