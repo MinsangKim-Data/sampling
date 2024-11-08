@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import random
 
 # Note: Suppressing FutureWarnings to maintain a clean output. This is specifically to ignore warnings about
 # deprecated features in the libraries we're using (e.g., 'use_inf_as_na' option in Pandas, used by Seaborn),
@@ -11,6 +12,9 @@ import seaborn as sns
 # these deprecations. Always consider reviewing and removing this suppression after significant library updates.
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
+
+np.random.seed(42)  # For numpy random operations
+random.seed(42)  # For random module operations
 
 # Constants representing the parameters of the model
 ATTACK_RATE = 0.10
@@ -68,7 +72,7 @@ def simulate_event(m):
   return p_wedding_infections, p_wedding_traces
 
 # Run the simulation 50000 times
-results = [simulate_event(m) for m in range(50000)]
+results = [simulate_event(m) for m in range(1000)]
 props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
 
 # Plotting the results
