@@ -16,30 +16,31 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: 1. HR Department and employee satisfaction
 
 Describe the purpose of your survey:
-```
-write your answer here...
-```
+Identifying key factors contributing to the high turnover rate among entry- and lower-level employees within the company.
 
 Describe your target population, sampling frame, sampling units, and observational units:
-```
-write your answer here...
-```
+Target Population: entry and low-level employees across all departments 
+Sampling Frame: list of all entry/low-level employees with less than two years of tenure.
+Sampling units: individual employees
+Observational units: perception of job satisfaction
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How satisfied are you with your current role at the company? (1 to 5)
+2. Do you feel there are enough growth opportunities at the company? (1 to 5)
+3. How likely are you to recommend the company as a good place to work to others? (1 to 5)
+4. What aspects of your job do you find most challenging or unsatisfactory?
+    Compensation and Benefits
+    Work-Life Balance
+    Career Development Opportunities
+    Team and Management Support
+    Job Responsibilities and Challenges
+    Company Culture
+5. How often do you receive constructive feedback and recognition for your work? (1 to 5)
+6. How long do you see yourself staying at the company if no changes are made to your current work  environment? (0 to 5 years)
 ```
 
 ## Rubric
