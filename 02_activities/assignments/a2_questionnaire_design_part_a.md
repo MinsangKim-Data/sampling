@@ -25,7 +25,7 @@ Describe your target population, sampling frame, sampling units, and observation
 Target Population: entry and low-level employees across all departments 
 Sampling Frame: list of all entry/low-level employees with less than two years of tenure.
 Sampling units: individual employees
-Observational units: perception of job satisfaction
+Observational units: individual employees
 
 Your 5-10 question survey:
 ```
