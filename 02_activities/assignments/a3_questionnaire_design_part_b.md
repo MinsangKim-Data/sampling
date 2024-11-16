@@ -30,10 +30,11 @@
     6. How long do you see yourself staying at the company if no changes are made to your current work  environment? (0 to 5 years)
 
 **Revised Survey:**
-    1. How satisfied are you with your current role at the company? (1 = Very Dissatisfied to 7 = Very Satisfied)
-    2. Do you feel there are enough growth opportunities at the company? (1 = Strongly Disagree to 7 = Strongly Agree)
-    3. How likely are you to recommend the company as a good place to work to others? (1 = Not at All Likely to 7 = Extremely Likely)
-    4. What aspects of your job do you find most challenging or unsatisfactory? (Choose all that apply)
+
+1. How satisfied are you with your current role at the company? (1 = Very Dissatisfied to 7 = Very Satisfied)
+2. Do you feel there are enough growth opportunities at the company? (1 = Strongly Disagree to 7 = Strongly Agree)
+3. How likely are you to recommend the company as a good place to work to others? (1 = Not at All Likely to 7 = Extremely Likely)
+4. What aspects of your job do you find most challenging or unsatisfactory? (Choose all that apply)
 Compensation and Benefits
 Work-Life Balance
 Career Development Opportunities
@@ -41,9 +42,9 @@ Team and Management Support
 Job Responsibilities and Challenges
 Company Culture
 Other: __________
-    5. How often have you received constructive feedback and recognition for your work in the past six months? (1 = Never to 7 = Always)
-    6. How long do you see yourself staying at the company if no changes are made to your current work environment? (0 to 5 years)
-    7. What department do you work in? (Optional: Helps identify patterns in responses)
+5. How often have you received constructive feedback and recognition for your work in the past six months? (1 = Never to 7 = Always)
+6. How long do you see yourself staying at the company if no changes are made to your current work environment? (0 to 5 years)
+7. What department do you work in? (Optional: Helps identify patterns in responses)
 
 Reasoning for changes: These changes improves clarity, reduces ambiguity, and captures more nuanced and actionable data, improving survey quality. In addition, the answer scale is changed to 1 to 7 to give more options for moderate satisfaction levels. Add "other" option with space for the respondent to give free space to capture unlisted or unsatisfactory aspects that are not mentioned. Specified a more recent time frame in Q5 for feedback and recognition to improve response quality. And for Q7, I included a question about demographics (department) to help identify patterns across subgroups while maintaining anonymity.
 
